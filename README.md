@@ -14,7 +14,7 @@ https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-w
 
 
 
-* Putty 
+# Putty 
 Download and install putty
 
 putty - connection - proxy 
@@ -24,7 +24,7 @@ command to send to proxy
 cloudflared.exe access ssh --hostname %host --> putty
 
 
-* WinSCP
+# WinSCP
 Download and install WinSCP
 
 Advanced Site Settings
