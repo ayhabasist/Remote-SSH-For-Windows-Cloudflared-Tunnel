@@ -1,7 +1,6 @@
 # Remote-SSH-For-Windows-Cloudflared-Tunnel
 Remote SSH For Windows Cloudflared Tunnel
 
-
 Download and install cloudflare :
 winget install --id Cloudflare.cloudflared
 
@@ -17,19 +16,20 @@ https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-w
 # Putty 
 Download and install putty
 
-putty - connection - proxy 
-proxy hostname : ssh.example.com
+- putty - connection - proxy 
+- proxy hostname : "ssh.example.com"
 
-command to send to proxy 
-cloudflared.exe access ssh --hostname %host --> putty
+- command to send to proxy 
+"cloudflared.exe access ssh --hostname %host"
 
 
 # WinSCP
 Download and install WinSCP
 
 Advanced Site Settings
-Connection - Proxy :
-Proxy Type - local
+- Connection - Proxy :
+"Proxy Type - local"
 
 local proxy command :
-C:\Program Files (x86)\cloudflared\cloudflared.exe access ssh --hostname %host --> WinSCP
+"C:\Program Files (x86)\cloudflared\cloudflared.exe access ssh --hostname %host"
+
