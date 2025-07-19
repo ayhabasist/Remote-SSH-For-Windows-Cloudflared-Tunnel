@@ -1,8 +1,8 @@
 # Remote-SSH-For-Windows-Cloudflared-Tunnel
 Remote SSH For Windows Cloudflared Tunnel
 
-Client : Windows
-Server : Debian 11
+- Client : Windows
+- Server : Debian 11
 
 Download and install cloudflare :
 winget install --id Cloudflare.cloudflared
